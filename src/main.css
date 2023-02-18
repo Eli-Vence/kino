@@ -1,0 +1,16 @@
+.card {
+  max-width: 300px;
+  text-align: justify;
+}
+.card:first-child{
+  margin-top: 0;
+}
+
+.card-list{
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
